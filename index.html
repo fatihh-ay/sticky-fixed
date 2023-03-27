@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sticky-Fixed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+        box-sizing: border-box;
+        font-size: 1.5rem;
+        margin: 0;
+        font-family: "Climate Crisis", cursive;
+        font-family: "Roboto", sans-serif;
+      }
+      table {
+        width: 100%;
+        height: 10rem;
+      }
+      .tr1 {
+        background: rgb(54, 54, 54);
+        color: white;
+        position: sticky;
+        top: 0;
+      }
+      .tr2 {
+        background: rgb(206, 204, 204);
+      }
+      td {
+        width: 50%;
+      }
+      .td2,
+      .td4 {
+        text-align: right;
+      }
+      a {
+        text-decoration: none;
+      }
+      .tr1 a {
+        color: white;
+        padding: 0.5rem;
+      }
+      .tr2 a {
+        color: black;
+      }
+      .td3 {
+        font-size: 4rem;
+        font-family: "Climate Crisis", cursive;
+      }
+      .fa-square-whatsapp {
+        font-size: 5rem;
+        position: fixed;
+        bottom: 0;
+        right: 2rem;
+      }
+      .ana {
+        height: 55rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <table>
+        <tr class="tr1">
+          <td class="td1">Welcome</td>
+          <td class="td2">
+            <a href="">Login</a>
+            <span>|</span>
+            <a href="">Card</a>
+          </td>
+        </tr>
+        <tr class="tr2">
+          <td class="td3">Practice</td>
+          <td class="td4">
+            <a href="">Home</a>
+            <span>|</span>
+            <a href="">Products</a>
+            <span>|</span>
+            <a href="">About</a>
+            <span>|</span>
+            <a href="">Contact</a>
+          </td>
+        </tr>
+      </table>
+      <div class="ana">
+        <i
+          class="fa-brands fa-square-whatsapp fa-beat-fade"
+          style="color: #3eda5d"
+        ></i>
+      </div>
+    </div>
+  </body>
+</html>
